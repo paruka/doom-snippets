@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cxx standard
+# key: std
+# uuid: std
+# condition: t
+# --
+target_compile_features(${1:\$\{CMAKE_PROJECT_NAME\}} ${2:PRIVATE} cxx_std_${0:17})
