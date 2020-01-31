@@ -4,8 +4,7 @@
 # uuid: th
 # condition: t
 # --
-
-#+LATEX_HEADER: \usepackage{tikz}
-#+PROPERTY: header-args:latex :headers '("\\usepackage{tikz}") :fit yes :imagemagick yes :iminoptions -density 300 :imoutoptions
+#+LATEX_HEADER: \usepackage{tikz} \usepackage{pgf -umlcd} \usepgflibrary{arrows} \usepackage{color}
+#+PROPERTY: header-args:latex :headers '("\\\\usepackage{tikz}") :fit yes :imagemagick yes :iminoptions -density 300 :imoutoptions
 #+OPTIONS: tex:imagemagick
 $1
