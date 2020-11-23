@@ -4,4 +4,4 @@
 # --
 namespace ${1:name} {
   `%`$0
-}
+  } // end of namespace $1
